@@ -5,3 +5,85 @@
 #below-list {
   height: 85%;
 }
+
+// card style
+#card-style {
+  padding-right: 24px;
+  transition-duration: 500ms;
+  &:hover {
+    background-color: rgb(241, 241, 241);
+  }
+}
+
+#card-line {
+  width: 4.25px;
+  border-radius: 3px;
+  position: absolute;
+  height: 90%;
+  top: 7px;
+  left: 4px;
+}
+
+#homepage-padding {
+  padding-top: 32px;
+}
+
+.mt-40px {
+  margin-top: 40px;
+}
+
+.card-bg {
+  background-image: url("../images/Card_BG_Img.jpg");
+  background-size: cover;
+  background-position: right;
+  border-radius: 5px;
+}
+
+.list-full-width {
+  width: 32%;
+  text-align: center;
+}
+
+#l-final {
+  width: 32.5%;
+  text-align: center;
+}
+
+.card {
+  padding: 0;
+}
+.card-wrapper {
+  margin-top: 5px;
+  margin-bottom: 24px;
+}
+
+// table code
+.cell {
+  height: 35px;
+  width: 35px;
+  margin-left: 40%;
+  position: relative;
+}
+
+.t-card {
+  border: none;
+  &:hover {
+    border: 0px groove grey;
+    background-color: rgba(197, 197, 197, 0.641);
+    box-shadow: 0px 1px 5px rgb(135, 131, 131);
+  }
+}
+
+.cal {
+  position: relative;
+}
+
+td {
+  text-align: center;
+  width: 30px;
+  height: 30px;
+}
+
+tbody {
+  background: white;
+}
