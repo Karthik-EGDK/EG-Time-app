@@ -1,0 +1,65 @@
+* {
+    font-family: "Montserrat", sans-serif;
+  }
+   
+  #below-list {
+    height: 85%;
+  }
+   
+  // card style
+  #card-style {
+    padding-right: 24px;
+    transition-duration: 500ms;
+    &:hover {
+      background-color: rgb(241, 241, 241);
+    }
+  }
+   
+  #card-line {
+    width: 4.25px;
+    border-radius: 3px;
+    position: absolute;
+    height: 90%;
+    top: 7px;
+    left: 4px;
+  }
+   
+  #homepage-padding {
+    padding-top: 32px;
+  }
+   
+  .mt-40px {
+    margin-top: 40px;
+  }
+   
+  .card-bg {
+    background-image: url("../images/");
+    background-size: cover;
+    background-position: right;
+    border-radius: 5px;
+  }
+   
+  .list-full-width {
+    width: 32%;
+    text-align: center;
+  }
+   
+  #l-final {
+    width: 32.5%;
+    text-align: center;
+  }
+   
+  .card {
+    padding: 0;
+  }
+  .card-wrapper {
+    margin-top: 5px;
+    margin-bottom: 24px;
+  }
+
+  .notification-container{
+    // background-color: green;
+    background: rgba(255,255,255,0.5);
+    backdrop-filter: blur(3px);
+
+  }
