@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+
+    <!-- link for font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- linking the style sheet -->
+    <link rel="stylesheet" href="./scss style/globalStyle.css" />
+
+    <link rel="stylesheet" href="./scss style/profile.css" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body class="bg-light">
+    <div class="row">
+      <div class="col-3 bg-white vh-100 pe-0 shadow">
+        <div class="d-flex gap-4 py-4 px-5 w-100">
+          <img src="./images/Login Logo.png" height="40px" class="" alt="" />
+          <p class="fs-3">Legal Solution</p>
+        </div>
+        <hr class="" />
+        <div
+          class="d-flex flex-column justify-content-between"
+          id="below-list"
+          style=""
+        >
+          <ul class="navbar-nav px-5 py-3 fs-4 gap-4">
+            <li class="nav-item">
+              <a href="" class="nav-link">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="35"
+                  height="35"
+                  fill="currentColor"
+                  class="bi bi-house me-5"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293zM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5z"
+                  />
+                </svg>
+                Home
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="35"
+                  height="35"
+                  fill="currentColor"
+                  class="bi bi-plus-circle me-5"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"
+                  />
+                  <path
+                    d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4"
+                  />
+                </svg>
+                Register Time
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="35"
+                  height="35"
+                  fill="currentColor"
+                  class="bi bi-calendar me-5"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5M1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4z"
+                  />
+                </svg>
+                Calender
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="35"
+                  height="35"
+                  fill="currentColor"
+                  class="bi bi-bar-chart me-5"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M4 11H2v3h2zm5-4H7v7h2zm5-5v12h-2V2zm-2-1a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM6 7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1zm-5 4a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1z"
+                  />
+                </svg>
+                Overview
+              </a>
+            </li>
+          </ul>
+
+          <ul class="navbar-nav px-5 py-3 fs-4 gap-4">
+            <li class="nav-item">
+              <a href="" class="nav-link">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="35"
+                  height="35"
+                  fill="currentColor"
+                  class="bi bi-bell-fill me-5"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2m.995-14.901a1 1 0 1 0-1.99 0A5 5 0 0 0 3 6c0 1.098-.5 6-2 7h14c-1.5-1-2-5.902-2-7 0-2.42-1.72-4.44-4.005-4.901"
+                  />
+                </svg>
+                Notification
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="35"
+                  height="35"
+                  fill="currentColor"
+                  class="bi bi-person-circle me-5"
+                  viewBox="0 0 16 16"
+                >
+                  <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0" />
+                  <path
+                    fill-rule="evenodd"
+                    d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"
+                  />
+                </svg>
+                Camilie Jameson
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- profile page -->
+      <div class="col-9">
+        <div class="container-fluid">
+          <!-- profile heading -->
+          <div class="row">
+            <p class="text-center p-4 fs-3 mt-5">Profile</p>
+          </div>
+
+          <!-- 1st row divided for name and log out button -->
+          <div class="row">
+            <div class="col-10">
+              <h4 class="">Camile Jensen</h4>
+              <p>camjen@advo.dk</p>
+            </div>
+            <div class="col-2 d-flex gap-3 float-right">
+              <p class="fs-4 text-danger pt-2">Log out</p>
+              <img src="images/logout.png" class="w-10 h-75" alt="" />
+              <!-- <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-box-arrow-left" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M6 12.5a.5.5 0 0 0 .5.5h8a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-8a.5.5 0 0 0-.5.5v2a.5.5 0 0 1-1 0v-2A1.5 1.5 0 0 1 6.5 2h8A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-8A1.5 1.5 0 0 1 5 12.5v-2a.5.5 0 0 1 1 0z"/>
+                <path fill-rule="evenodd" d="M.146 8.354a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L1.707 7.5H10.5a.5.5 0 0 1 0 1H1.707l2.147 2.146a.5.5 0 0 1-.708.708z"/>
+              </svg> -->
+            </div>
+            <hr />
+          </div>
+
+          <div class="row py-3">
+            <h4>Settings</h4>
+          </div>
+
+          <!-- 3rd row -->
+          <div class="row py-3">
+            <div class="col-10">
+              <h5>Push Notifications</h5>
+              <p>Get notification regarding your unregisterd hours</p>
+            </div>
+            <div class="col-2 float-right">
+              <img src="images/toggle_btn.png" alt="" class="toggle_btn w-25" />
+              <!-- <svg xmlns="http://www.w3.org/2000/svg" width="40" height="35" fill="currentColor" class="bi bi-toggle-on" viewBox="0 0 16 16">
+                <path d="M5 3a5 5 0 0 0 0 10h6a5 5 0 0 0 0-10zm6 9a4 4 0 1 1 0-8 4 4 0 0 1 0 8"/>
+              </svg> -->
+            </div>
+          </div>
+
+          <!-- 4th row -->
+          <div class="row py-3">
+            <h5>Overdue Registration Notification</h5>
+            <p>
+              Get notification regarding overdue registartion (2 weeks or 1
+              month)
+            </p>
+            <div class="d-grid gap-5 d-md-block">
+              <button
+                class="prof_btn btn btn-light shadow-lg me-3"
+                type="button"
+              >
+                2 w
+              </button>
+              <button
+                class="prof_btn btn btn-dark shadow-lg me-3"
+                type="button"
+              >
+                1 m
+              </button>
+            </div>
+          </div>
+
+          <!-- 5th -->
+          <div class="row py-3">
+            <h5>Time registration rounding</h5>
+            <p>choose how you want your minutes to be rounded up</p>
+            <div class="prof_btn d-grid gap-2 d-md-block">
+              <button
+                class="prof_btn btn btn-light shadow-lg me-3"
+                type="button"
+              >
+                No
+              </button>
+              <button
+                class="prof_btn btn btn-dark shadow-lg me-3"
+                type="button"
+              >
+                5
+              </button>
+              <button
+                class="prof_btn btn btn-light shadow-lg me-3"
+                type="button"
+              >
+                0
+              </button>
+            </div>
+          </div>
+
+          <!-- 6th row -->
+          <div class="row py-3">
+            <h5>Work Week</h5>
+            <p>Set the Length of your work week</p>
+            <div class="d-grid gap-2 d-md-block">
+              <button
+                class="prof_btn btn btn-light shadow-lg me-3"
+                type="button"
+              >
+                No
+              </button>
+              <button
+                class="prof_btn btn btn-dark shadow-lg me-3"
+                type="button"
+              >
+                5
+              </button>
+              <button
+                class="prof_btn btn btn-light shadow-lg me-3"
+                type="button"
+              >
+                0
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
