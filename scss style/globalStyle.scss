@@ -1,7 +1,7 @@
 * {
   font-family: "Montserrat", sans-serif;
 }
- 
+
 #below-list {
   height: 85%;
 }
@@ -24,7 +24,6 @@
   left: 4px;
 }
 
-
 #homepage-padding {
   padding-top: 32px;
 }
@@ -34,7 +33,17 @@
 }
 
 .card-bg {
-  background-image: url("../images/Card_BG_Img.jpg");
+  background-image: linear-gradient(
+    to right,
+    grey,
+    rgb(48, 189, 255),
+    rgb(216, 216, 216),
+    rgb(48, 189, 255),
+    white,
+    rgb(216, 216, 216),
+    rgb(48, 189, 255),
+    rgb(216, 216, 216)
+  );
   background-size: cover;
   background-position: right;
   border-radius: 5px;
@@ -49,7 +58,6 @@
   width: 32.5%;
   text-align: center;
 }
-
 
 .card {
   padding: 0;
@@ -89,4 +97,3 @@ td {
 tbody {
   background: white;
 }
-
